@@ -6,12 +6,12 @@ import android.content.Context;
 import android.os.Bundle;
 import android.widget.TextView;
 
-public class MainActivity extends AppCompatActivity {
+public class TextViewMainActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.text_view_activity_main);
 
         //通过id找到TextView控件对象
         TextView item_tv;
@@ -19,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
         item_tv.setText("我的一人世界");
         //通过资源id获得字符串对象
         item_tv.setText(this.getText(R.string.hello_world));
-        //通过资源名称获取字符串
+        //通过资源名称获取字符串，如何通过“hello_world”获得R.string.hello_world
         Context context=this.getApplicationContext();
         String resName="hello_world";
         int helloWorldID=context.getResources().getIdentifier(resName, "string", context.getPackageName());
