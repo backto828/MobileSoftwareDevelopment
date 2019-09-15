@@ -34,8 +34,7 @@
         android:layout_height="wrap_content"
         android:layout_marginEnd="40dp"
         android:layout_marginRight="40dp"
-        android:text="Button"
+        android:text="@string/hello_world2"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/buttonHelloEn"
-        tools:text="@string/hello_world2" />
+        app:layout_constraintTop_toTopOf="@+id/buttonHelloEn" />
 </androidx.constraintlayout.widget.ConstraintLayout>
