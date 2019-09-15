@@ -11,7 +11,7 @@ public class TextViewMainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.text_view_activity_main);
+        setContentView(R.layout.activity_text_view_main);
 
         //通过id找到TextView控件对象
         TextView item_tv;
