@@ -35,23 +35,23 @@ public class EditTextActivity extends AppCompatActivity {
 
             if(suoxie.equals("cn"))
             {
-                text_view_language.setText("语言");
-                button_change_language.setText("改变语言");
+                text_view_language.setText(R.string.language_cn);
+                button_change_language.setText(R.string.change_language_cn);
             }
             else if(suoxie.equals("en"))
             {
-                text_view_language.setText("Language");
-                button_change_language.setText("Change language");
+                text_view_language.setText(R.string.language_en);
+                button_change_language.setText(R.string.change_language_en);
             }
             else if(suoxie.equals("jp"))
             {
-                text_view_language.setText("言語");
-                button_change_language.setText("言語を変更する");
+                text_view_language.setText(R.string.language_jp);
+                button_change_language.setText(R.string.change_language_jp);
             }
             else if(suoxie.equals("kr"))
             {
-                text_view_language.setText("언어");
-                button_change_language.setText("언어 변경");
+                text_view_language.setText(R.string.language_kr);
+                button_change_language.setText(R.string.change_language_kr);
             }
         }
     }
