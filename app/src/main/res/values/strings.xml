@@ -4,7 +4,8 @@
     <string name="hello_world">HelloWorld!</string>
     <string name="hello_world2">你好，世界！</string>
     <string name="change_lan">Change Language</string>
-
+    <string name="chushi_en">en</string>
+    <string name="chushi_lan">Language</string>
     <string name="language_cn">语言</string>
 
     <string name="language_en">Language</string>
