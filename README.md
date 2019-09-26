@@ -1,3 +1,4 @@
 # MobileSoftwareDevelopment
 first editon
-这是前面几节课的内容  主要是Textview
+这是前4个实验集成的代码
+包括了TextView、Button、EditText
